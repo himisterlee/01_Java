@@ -30,5 +30,7 @@ System.out.println('1');  // 숫자 값이지만 홀따옴표로 감싸져 있�
         // 논리값 출력
         System.out.println(true);
         System.out.println(false);
+
+
     }
 }
