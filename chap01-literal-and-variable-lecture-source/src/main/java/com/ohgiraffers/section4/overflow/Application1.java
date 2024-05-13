@@ -61,5 +61,7 @@ public class Application1 {
         longMulti = (long) firstNum * secondNum; // 강제 형변환
 
 
+
+
     }
 }
