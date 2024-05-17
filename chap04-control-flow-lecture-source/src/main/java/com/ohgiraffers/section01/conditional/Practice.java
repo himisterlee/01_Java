@@ -12,17 +12,26 @@ public class Practice {
         System.out.println("어느 도끼가 너의 도끼이냐? (1. 금도끼, 2. 은도끼, 3. 쇠도끼)");
 
         Scanner sc = new Scanner(System.in);
-        int answer = sc.nextInt();
+        //int answer = sc.nextInt();
+        String answer2 = sc.nextLine();
 
-
-        switch(answer) {
-            case 1:
+        switch(answer2) {
+            case "1":
                 System.out.println("이런 거짓말쟁이!! 너에게는 아무런 도끼도 줄수 없구나, 이 욕심쟁이야!!");
                 break;
-            case 2:
+            case "금도끼":
+                System.out.println("이런 거짓말쟁이!! 너에게는 아무런 도끼도 줄수 없구나, 이 욕심쟁이야!!");
+                break;
+            case "2":
                 System.out.println("욕심이 과하지는 않지만, 넌 거짓말을 하고 있구나!! 어서 썩 사라지거라");
                 break;
-            case 3:
+            case "은도끼":
+                System.out.println("욕심이 과하지는 않지만, 넌 거짓말을 하고 있구나!! 어서 썩 사라지거라");
+                break;
+            case "3":
+                System.out.println("오호 ~ 정직하구나 금도끼, 은도끼, 쇠도끼 다 가져가거라~");
+                break;
+            case "쇠도끼":
                 System.out.println("오호 ~ 정직하구나 금도끼, 은도끼, 쇠도끼 다 가져가거라~");
                 break;
             default :
