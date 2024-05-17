@@ -18,24 +18,20 @@ public class Practice {
         switch(answer) {
             case 1:
                 System.out.println("이런 거짓말쟁이!! 너에게는 아무런 도끼도 줄수 없구나, 이 욕심쟁이야!!");
-                System.out.println("그렇게.. 산신령은.. 다시 연못으로.. 사라지고 말았다..");
                 break;
             case 2:
                 System.out.println("욕심이 과하지는 않지만, 넌 거짓말을 하고 있구나!! 어서 썩 사라지거라");
-                System.out.println("그렇게.. 산신령은.. 다시 연못으로.. 사라지고 말았다..");
                 break;
             case 3:
                 System.out.println("오호 ~ 정직하구나 금도끼, 은도끼, 쇠도끼 다 가져가거라~");
-                System.out.println("그렇게.. 산신령은.. 다시 연못으로.. 사라지고 말았다..");
                 break;
             default :
                 System.out.println("잘못입력했구나.. 돌아가거라");
-                System.out.println("그렇게.. 산신령은.. 다시 연못으로.. 사라지고 말았다...");
                 break;
 
 
         }
-
+        System.out.println("그렇게.. 산신령은.. 다시 연못으로.. 사라지고 말았다..");
 
     }
 }
