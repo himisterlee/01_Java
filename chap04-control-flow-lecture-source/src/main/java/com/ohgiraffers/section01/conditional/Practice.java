@@ -30,7 +30,7 @@ public class Practice {
                 break;
             default :
                 System.out.println("잘못입력했구나.. 돌아가거라");
-                System.out.println("그렇게.. 산신령은.. 다시 연못으로.. 사라지고 말았다..");
+                System.out.println("그렇게.. 산신령은.. 다시 연못으로.. 사라지고 말았다...");
                 break;
 
 
