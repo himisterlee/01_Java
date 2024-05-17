@@ -75,6 +75,9 @@ public class Application1 {
         boolean isTrue = sc.nextBoolean();
         System.out.println("입력하신 논리 값은 " + isTrue + " 입니다.");
 
+
+        // 에러발생
+        sc.nextLine();
         System.out.println("아무 문자나 입력하세요");
         String str = sc.nextLine();
         char ch = str.charAt(0);

@@ -23,5 +23,16 @@ public class Application2 {
         String greeting2 = sc.next(); // 안녕하세요 -> 이거만 저장
 
         System.out.println(greeting2);
+
+
+
+
+
+
+
+
+
+
+
     }
 }
