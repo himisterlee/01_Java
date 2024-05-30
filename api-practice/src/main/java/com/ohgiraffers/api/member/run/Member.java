@@ -10,6 +10,8 @@ public class Member {
     private int weight;
     private LocalDate birth;
 
+    public Member() {
+    }
 
     public Member(int memberNo, String memberName, int height, int weight, LocalDate birth) {
         this.memberNo = memberNo;
